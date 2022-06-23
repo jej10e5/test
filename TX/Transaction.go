@@ -1,7 +1,6 @@
 package TX
 
 import (
-	w "Wallet"
 	"bytes"
 	"crypto/ecdsa"
 	"crypto/rand"
@@ -9,6 +8,8 @@ import (
 	"fmt"
 	"strconv"
 	"time"
+
+	w "github.com/jej10e5/test/wallet"
 )
 
 type Tx struct {

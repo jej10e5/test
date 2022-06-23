@@ -1,7 +1,6 @@
 package wallet
 
 import (
-	"btcsuite/btcd/btcutil/base58"
 	"bytes"
 	"crypto/ecdsa"
 	"crypto/elliptic"
@@ -12,6 +11,8 @@ import (
 	"log"
 	"os"
 	"time"
+
+	base58 "github.com/btcsuite/btcd/btcutil/base58"
 
 	"golang.org/x/crypto/ripemd160"
 )
